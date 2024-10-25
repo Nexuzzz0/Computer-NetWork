@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="7723BFFD-044E-4436-AB47-D7AF83C07F4F" name="S1" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-52-4B-CB" com_port="2004" bootmode="0" cx="418.000000" cy="249.000000" edit_left="445" edit_top="303">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="C1F84D40-925B-4405-AE69-1471BDB5A59F" name="R1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-35-7C-4D" com_port="2000" bootmode="0" cx="602.000000" cy="249.000000" edit_left="629" edit_top="303">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="5FE93056-DA4F-4c98-B330-86B36CCD23E6" name="R2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-94-53-00" com_port="2001" bootmode="0" cx="418.000000" cy="69.000000" edit_left="445" edit_top="123">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="38199C23-8A9F-4458-8F1C-4BC56C6FA9D6" name="R3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-56-4A-2B" com_port="2002" bootmode="0" cx="214.000000" cy="249.000000" edit_left="241" edit_top="303">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="2B827135-C0DD-4dc7-AAA3-8FCCFD0B8323" name="R4" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-4F-4B-DF" com_port="2003" bootmode="0" cx="418.000000" cy="411.000000" edit_left="445" edit_top="465">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="5FE93056-DA4F-4c98-B330-86B36CCD23E6" destDeviceID="7723BFFD-044E-4436-AB47-D7AF83C07F4F">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="445.000000" srcBoundRect_Y="139.183762" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="445.000000" tarBoundRect_Y="232.816238" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="38199C23-8A9F-4458-8F1C-4BC56C6FA9D6" destDeviceID="7723BFFD-044E-4436-AB47-D7AF83C07F4F">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="284.183777" srcBoundRect_Y="276.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="401.816223" tarBoundRect_Y="276.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="7723BFFD-044E-4436-AB47-D7AF83C07F4F" destDeviceID="2B827135-C0DD-4dc7-AAA3-8FCCFD0B8323">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="0" srcBoundRect_X="445.000000" srcBoundRect_Y="319.183777" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="445.000000" tarBoundRect_Y="394.816223" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="7723BFFD-044E-4436-AB47-D7AF83C07F4F" destDeviceID="C1F84D40-925B-4405-AE69-1471BDB5A59F">
+            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="0" srcBoundRect_X="488.183777" srcBoundRect_Y="276.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="585.816223" tarBoundRect_Y="276.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="421" top="46" right="470" bottom="63" content="人事部" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="159" top="266" right="208" bottom="283" content="开发部" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="406" top="488" right="455" bottom="505" content="市场部" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="663" top="273" right="758" bottom="290" content="总经理办公室" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="527" top="246" right="606" bottom="263" content="172.16.1.1" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="454" top="175" right="533" bottom="192" content="172.16.1.2" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="296" top="251" right="375" bottom="268" content="172.16.1.3" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="362" top="360" right="441" bottom="377" content="172.16.1.4" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
